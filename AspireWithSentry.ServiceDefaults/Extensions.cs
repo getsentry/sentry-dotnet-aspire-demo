@@ -38,7 +38,9 @@ public static class Extensions
     {
         builder.WebHost.UseSentry(options =>
         {
-            // Change this to the DSN of your Sentry project
+            throw new NotImplementedException(
+                "Supply a valid DSN below and remove this exception. See the README.md for help.");
+            // TODO: Configure the DSN of your Sentry project below
             // options.Dsn = "... your DSN here ...";  // Replace this!!!
 #if DEBUG           
             options.Debug = true;
