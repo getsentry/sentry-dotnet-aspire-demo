@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0.0
+MinimumVisualStudioVersion = 17.8.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireWithSentry.AppHost", "AspireWithSentry.AppHost\AspireWithSentry.AppHost.csproj", "{2537C49C-BC04-4E7B-87CD-E791BCB1034C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireWithSentry.ServiceDefaults", "AspireWithSentry.ServiceDefaults\AspireWithSentry.ServiceDefaults.csproj", "{E489E739-DF3F-4433-ACAC-7B1C91563CCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireWithSentry.ApiService", "AspireWithSentry.ApiService\AspireWithSentry.ApiService.csproj", "{027D84F8-2C29-44B4-8CD7-66B32B2D34A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireWithSentry.Web", "AspireWithSentry.Web\AspireWithSentry.Web.csproj", "{A77C2521-4D6B-4251-BFC5-1499E1F19E74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Root", "Root", "{DB4DA479-9CBC-451F-A6F0-90125046036C}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2537C49C-BC04-4E7B-87CD-E791BCB1034C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2537C49C-BC04-4E7B-87CD-E791BCB1034C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2537C49C-BC04-4E7B-87CD-E791BCB1034C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2537C49C-BC04-4E7B-87CD-E791BCB1034C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E489E739-DF3F-4433-ACAC-7B1C91563CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E489E739-DF3F-4433-ACAC-7B1C91563CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E489E739-DF3F-4433-ACAC-7B1C91563CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E489E739-DF3F-4433-ACAC-7B1C91563CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027D84F8-2C29-44B4-8CD7-66B32B2D34A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027D84F8-2C29-44B4-8CD7-66B32B2D34A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027D84F8-2C29-44B4-8CD7-66B32B2D34A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027D84F8-2C29-44B4-8CD7-66B32B2D34A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A77C2521-4D6B-4251-BFC5-1499E1F19E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A77C2521-4D6B-4251-BFC5-1499E1F19E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A77C2521-4D6B-4251-BFC5-1499E1F19E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A77C2521-4D6B-4251-BFC5-1499E1F19E74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75A4C9E0-84AD-4C50-A277-BECAC5E43EF8}
+	EndGlobalSection
+EndGlobal

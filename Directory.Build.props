@@ -1,0 +1,8 @@
+<Project>
+    <PropertyGroup>
+        <SentryOrg>sentry-sdks</SentryOrg>
+        <SentryProject>aspnet-core</SentryProject>
+        <SentryUploadSymbols>true</SentryUploadSymbols>
+        <SentryUploadSources>true</SentryUploadSources>
+    </PropertyGroup>
+</Project>
