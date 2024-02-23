@@ -38,9 +38,7 @@ public static class Extensions
     {
         builder.WebHost.UseSentry(options =>
         {
-            throw new NotImplementedException(
-                "Supply a valid DSN below and remove this exception. See the README.md for help.");
-            // TODO: Configure the DSN of your Sentry project below
+            #error TODO: Supply a valid DSN below and remove this exception. See the README.md for help.
             // options.Dsn = "... your DSN here ...";  // Replace this!!!
 #if DEBUG           
             options.Debug = true;

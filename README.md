@@ -17,9 +17,7 @@ You can [get a free Sentry account here](https://sentry.io/signup/). Create a ne
 following code in `AspireWithSentry.ServiceDefaults/Extensions.cs`
 
 ```csharp
-throw new NotImplementedException(
-    "Supply a valid DSN below and remove this exception. See the README.md for help.");
-// TODO: Configure the DSN of your Sentry project below
+#error TODO: Supply a valid DSN below and remove this exception. See the README.md for help.
 // options.Dsn = "... your DSN here ...";  // Replace this!!!
 ```
 
