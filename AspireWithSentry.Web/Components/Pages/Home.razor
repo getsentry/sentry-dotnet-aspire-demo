@@ -1,0 +1,18 @@
+﻿@page "/"
+
+@rendermode InteractiveServer
+
+@inject WeatherApiClient WeatherApi
+
+<PageTitle>Crash Tests</PageTitle>
+
+<h1>Hello, bugs!</h1>
+
+<button class="btn btn-primary" @onclick="ApiCrashTest">Danger - don't touch!</button>
+
+@code {
+    private async Task ApiCrashTest()
+    {
+        await WeatherApi.CrashTestAsync();
+    }
+}

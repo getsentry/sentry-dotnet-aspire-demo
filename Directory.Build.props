@@ -1,0 +1,12 @@
+<Project>
+    <PropertyGroup>
+<!--
+  You can get more context in Sentry if you upload debug symbos and sources. Check out the Sentry docs for more info:
+      https://docs.sentry.io/platforms/dotnet/data-management/debug-files/upload/
+-->
+<!--        <SentryOrg>your-org-slug</SentryOrg>-->
+<!--        <SentryProject>your-project-slug</SentryProject>-->
+<!--        <SentryUploadSymbols>true</SentryUploadSymbols>-->
+<!--        <SentryUploadSources>true</SentryUploadSources>-->
+    </PropertyGroup>
+</Project>
